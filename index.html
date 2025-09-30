@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário de CEP</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <main>
-        <div>
+    <main class="limit-section">
+        <div class="form-container">
             <form id="form">
                 <label for="cep">CEP:</label>
-                <input id="cep" type="number" min="9" max="9" placeholder="Ex: 78302-116">
+                <input id="cep" type="text" inputmode="numeric" placeholder="Ex: 78302-116" minlength="9" maxlength="9" required>
 
                 <label for="street">Logradouro:</label>
                 <input id="street" type="text">
@@ -26,6 +27,11 @@
 
                 <button type="submit">Enviar</button>
             </form>
+
+            <div class="error-container">
+                <p>CEP inexistente</p>
+                <button type="button">Fechar</button>
+            </div>
         </div>
     </main>
 </body>

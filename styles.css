@@ -67,6 +67,12 @@ form button:hover, .error-container button:hover {
     background-color: #555;
 }
 
+.form-container h1 {
+    text-align: center;
+    font-size: clamp(2rem, 1.5vw + 1rem, 3rem);
+    font-weight: normal;
+}
+
 .limit-section {
     max-width: 768px;
     width: 100%;

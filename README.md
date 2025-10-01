@@ -93,4 +93,4 @@ Você pode acessar a versão online do projeto através deste link:
 
 ## Licença
 
-Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo [LICENSE](https://opensource.org/licenses/MIT).
+Este projeto está sob a licença MIT. Para mais detalhes, consulte o arquivo [LICENSE](LICENSE).

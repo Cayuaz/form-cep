@@ -39,12 +39,7 @@ const getValidInput = input => input.value.replace(/\D/g, "");
 function checkInput(input){
 
     const validInput = getValidInput(input);
-    if(validInput.length === 8){
-        return true;
-    } else {
-        false;
-    }
-
+    return validInput.length === 8
 }
 
 export {checkInput, getValidInput, execute};

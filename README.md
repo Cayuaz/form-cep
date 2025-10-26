@@ -10,14 +10,14 @@
 
 ## Índice
 
-- [Sobre](#-sobre)
-- [Preview](#-preview)
-- [Funcionalidades](#-funcionalidades)
-- [Objetivos de Aprendizagem](#-objetivos-de-aprendizagem)
-- [Tecnologias Utilizadas](#️-tecnologias-utilizadas)
-- [Como Executar](#-como-executar)
-- [Link do Projeto](#-link-do-projeto)
-- [Licença](#-licença)
+- [Sobre](#sobre)
+- [Preview](#preview)
+- [Funcionalidades](#funcionalidades)
+- [Objetivos de Aprendizagem](#objetivos-de-aprendizagem)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Executar](#como-executar)
+- [Link do Projeto](#link-do-projeto)
+- [Licença](#licença)
 
 ---
 

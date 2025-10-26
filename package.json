@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "copyfiles": "^2.4.1",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.3"
+  },
+  "scripts": {
+    "format": "prettier --write .",
+    "build": "npx tsc && npm run copy-assets",
+    "copy-assets": "copyfiles -u 1 \"src/**/*.html\" \"src/**/*.css\" \"src/assets/**/*\" dist",
+    "dev": "npx tsc --watch"
+  }
+}

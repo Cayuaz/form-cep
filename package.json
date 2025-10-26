@@ -9,5 +9,6 @@
     "build": "npx tsc && npm run copy-assets",
     "copy-assets": "copyfiles -u 1 \"src/**/*.html\" \"src/**/*.css\" \"src/assets/**/*\" dist",
     "dev": "npx tsc --watch"
-  }
+  },
+  "type": "module"
 }

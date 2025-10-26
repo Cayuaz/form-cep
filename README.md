@@ -31,13 +31,7 @@ O código foi refatorado de JavaScript para TypeScript, adicionando tipagem est�
 
 ## Preview
 
-### Tela Desktop
-
-![Preview - Desktop](./src/assets/images/desktop-img.png)
-
-### Tela Mobile
-
-![Preview - Mobile](./src/assets/images/mobile-img.png)
+![Preview](./src/assets/images/desktop-img.png)
 
 ---
 
@@ -68,12 +62,10 @@ O desenvolvimento e a refatoração deste projeto permitiram aprimorar as seguin
 
 ## Tecnologias Utilizadas
 
--   **HTML5** para a estrutura semântica.
--   **CSS3** para estilização e layout responsivo.
--   **TypeScript** para a lógica, interatividade, tipagem e consumo da API.
--   **API:** [ViaCEP](https://viacep.com.br/)
-
----
+- **HTML5** para a estrutura semântica.
+- **CSS3** para estilização e layout responsivo.
+- **TypeScript** para a lógica, interatividade, tipagem e consumo da API.
+- **API:** [ViaCEP](https://viacep.com.br/)
 
 ---
 

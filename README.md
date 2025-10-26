@@ -33,20 +33,20 @@ O código foi refatorado de JavaScript para TypeScript, adicionando tipagem est�
 
 ### Tela Desktop
 
-![Preview - Desktop](./assets/images/desktop-img.png)
+![Preview - Desktop](./src/assets/images/desktop-img.png)
 
 ### Tela Mobile
 
-![Preview - Mobile](./assets/images/mobile2-img.png)
+![Preview - Mobile](./src/assets/images/mobile-img.png)
 
 ---
 
 ## Funcionalidades
 
--   **Consulta em tempo real:** A busca na API é disparada automaticamente quando o usuário digita um CEP de 8 dígitos.
--   **Preenchimento automático:** Os campos de logradouro, bairro, cidade e estado são preenchidos com os dados retornados pela API.
--   **Validação de entrada:** O sistema verifica se o CEP digitado contém 8 números (ignorando outros caracteres).
--   **Tratamento de erros:** Exibe uma mensagem clara para o usuário caso o CEP não seja encontrado ou ocorra um erro na requisição.
+- **Consulta em tempo real:** A busca na API é disparada automaticamente quando o usuário digita um CEP de 8 dígitos.
+- **Preenchimento automático:** Os campos de logradouro, bairro, cidade e estado são preenchidos com os dados retornados pela API.
+- **Validação de entrada:** O sistema verifica se o CEP digitado contém 8 números (ignorando outros caracteres).
+- **Tratamento de erros:** Exibe uma mensagem clara para o usuário caso o CEP não seja encontrado ou ocorra um erro na requisição.
 
 ---
 
@@ -58,11 +58,11 @@ O desenvolvimento e a refatoração deste projeto permitiram aprimorar as seguin
 - Aplicação de **tipagem estática** em variáveis, funções e elementos do DOM.
 - Criação de tipos personalizados (`type alias`) para modelar dados (ex: `Address`).
 - Uso de **Type Guards** (`isAddress`) para validar de forma segura o retorno da API.
-  -   Consumo de APIs externas utilizando `fetch`.
-  -   Implementação de lógica assíncrona com `async/await` e `Promises`.
+  - Consumo de APIs externas utilizando `fetch`.
+  - Implementação de lógica assíncrona com `async/await` e `Promises`.
 - Manipulação de elementos do DOM com tipagem (`as HTMLInputElement`, `NodeListOf`).
-  -   Estruturação do código em módulos TypeScript (`import`/`export`).
-  -   Uso de CSS moderno, incluindo Flexbox e unidades responsivas como `clamp()`, para criar layouts adaptáveis.
+  - Estruturação do código em módulos TypeScript (`import`/`export`).
+  - Uso de CSS moderno, incluindo Flexbox e unidades responsivas como `clamp()`, para criar layouts adaptáveis.
 
 ---
 
@@ -75,24 +75,39 @@ O desenvolvimento e a refatoração deste projeto permitiram aprimorar as seguin
 
 ---
 
+---
+
 ## Como Executar
 
 Este projeto utiliza TypeScript e precisa ser **compilado** para JavaScript antes de ser executado no navegador.
 
-1.  Clone este repositório:
-    `bash
-    git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
-    `
-2.  Navegue até o diretório do projeto:
-    `bash
-    cd seu-repositorio
-    ` 3. Instale as dependências de desenvolvimento (incluindo o TypeScript):
-`bash
+1.  Clone este repositório:
+
+    ```bash
+    git clone https://github.com/Cayuaz/form-cep.git
+    ```
+
+2.  Navegue até o diretório do projeto:
+
+    ```bash
+    cd form-cep
+    ```
+
+3.  Instale as dependências de desenvolvimento (incluindo o TypeScript):
+
+    ```bash
     npm install
-    ` 4. Compile o código TypeScript para JavaScript:
-`bash
+    ```
+
+4.  Compile o código TypeScript para JavaScript:
+
+    ```bash
     npx tsc
-    ` 5. Isso criará (ou atualizará) uma pasta `dist` com os arquivos `.js` compilados. 6. Abra o arquivo `index.html` (ou `dist/index.html`, dependendo da sua estrutura) em seu navegador de preferência.
+    ```
+
+5.  Isso criará (ou atualizará) uma pasta `dist` com os arquivos `.js` compilados.
+
+6.  Abra o arquivo `index.html` em seu navegador de preferência.
 
 _Alternativamente, utilize uma extensão como o "Live Server" no VS Code para servir o diretório que contém o `index.html` e os arquivos `.js` compilados._
 
